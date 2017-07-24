@@ -1,0 +1,43 @@
+body,
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    background: linear-gradient(to left, #78909c, #424242, #000);
+}
+
+.footer {
+    background: #000;
+    height: auto;
+    text-align: center;
+}
+
+.nav-wrapper {
+    font-size: 2em;
+    background-color: #048b8b;
+}
+
+.headline {
+    font-size: 1.75em;
+    text-align: center;
+    margin-bottom: 0.5em;
+    padding: 30px;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+}
+
+.hidden {
+    display: none;
+}
+
+.btn-lucky {
+    float: right;
+}
+
+.fa {
+    color: #ffeb3b;
+}

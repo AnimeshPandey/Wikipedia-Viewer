@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Wikipedia Viewer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo center headline"><i class="fa fa-search"></i>Wikipedia Search Engine</a>
+        </div>
+    </nav>
+    <br>
+    <div class="main">
+        <!--home begins-->
+        <div class="home">
+            <div class="container">
+                <div class="row">
+                    <div class="col m6 offset-m3">
+                        <form action="" class="wiki-search-form">
+                            <input type="search" placeholder="Enter to search Wikipedia - - - -" class="wiki-search-input" id="wiki-search-input">
+                            <div class="btn btn-wiki" style="background-color: #03b7b7;">Click To Search</div>
+                            <a class="btn btn-lucky" href="http://en.wikipedia.org/wiki/Special:Random" target="_blank" style="background-color: #f57c00 ;">Generate Random</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <!--results begin-->
+        <div class="result hidden">
+            <header class="header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col m6 offset-m3">
+                            <form action="" class="result-wiki-search-form">
+                                <input type="text" placeholder="Enter to search Wikipedia - - - -" class="result-wiki-search-form-input" id="result-wiki-search-form-input">
+                                <div class="btn result-btn-wiki" style="background-color: #03b7b7;">Click To Search</div>
+                                <a class="btn btn-lucky" href="http://en.wikipedia.org/wiki/Special:Random" target="_blank" style="background-color: #f57c00 ;">Generate Random</a>
+                            </form>
+                        </div>
+                        <div class="col m12">
+                            <h2>Search results :</h3>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <div class="container">
+                <section class="search-results">
+                    <div class="col m12">
+                        <div class="display-results"></div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="footer">
+            <p>A FreeCodeCamp Project by Animesh Pandey</p>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" type="text/javascript"></script>
+    <script src="script.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+</body>
+
+</html>
